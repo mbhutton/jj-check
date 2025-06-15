@@ -7,7 +7,6 @@ Most work happens in `dev` branch with frequent history rewrites, then pushed to
 
 # TODOs / ROADMAP
 
-- [ ] Rename package and repo to `jj-check`
 - [ ] Inline TODOs in code
 - [ ] Snapshot the workspace before loading the repo (unless `--no-snapshot` is passed)
 - [ ] Add example repo based tests for each rule check

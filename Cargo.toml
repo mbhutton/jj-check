@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 jj-lib = ">=0.8.0"
 git2 = { version = "0.20.1", features = ["vendored-libgit2"] }
+serde_json = "1.0"

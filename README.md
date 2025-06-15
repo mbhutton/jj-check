@@ -11,7 +11,6 @@ Most work happens in `dev` branch with frequent history rewrites, then pushed to
 - [ ] Pull in rules suggestions from old j-check script
 - [ ] Add justfile
 - [ ] Add lints, including fail on warning, activated in CI
-- [ ] Snapshot the workspace before loading the repo (unless `--no-snapshot` is passed)
 - [ ] For each check:
   - [ ] Implementation with useful output and manual testing
   - [ ] User configurable via TOML, with documented default

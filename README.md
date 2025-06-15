@@ -5,13 +5,21 @@
 Nascent work in progress, nowhere near ready for general use.
 Most work happens in `dev` branch with frequent history rewrites, then pushed to `main` branch with more stable history.
 
-# TODOs / ROADMAP
+# TODOs
 
 - [ ] Inline TODOs in code
+- [ ] Pull in rules suggestions from old j-check script
+- [ ] Add justfile
+- [ ] Add lints, including fail on warning, activated in CI
 - [ ] Snapshot the workspace before loading the repo (unless `--no-snapshot` is passed)
-- [ ] Add example repo based tests for each rule check
+- [ ] For each check:
+  - [ ] Implementation with useful output and manual testing
+  - [ ] User configurable via TOML, with documented default
+  - [ ] Include in docs/README
+  - [ ] Add example repo based test
 - [ ] Add unit tests where useful
-- [ ] Balk at jj-only or git-only repos
+- [ ] Rules:
+  - [ ] Balk at jj-only or git-only repos
 - [ ] Choose whether to load jj config (global and per-repo)
 - [ ] Add git checks, including upstreams for branches, and pull vendored-libgit2 back in
 - [ ] Add global TOML configuration file

@@ -1,5 +1,10 @@
 # `jj-check` - To check local `git`+`jj` repos.
 
+# Status: Pre-Pre-Alpha
+
+Nascent work in progress, nowhere near ready for general use.
+Most work happens in `dev` branch with frequent history rewrites, then pushed to `main` branch with more stable history.
+
 # TODOs / ROADMAP
 
 - [ ] Rename package and repo to `jj-check`
